@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+
+    <Button
+        android:text="Burdur/Ağlasun"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:id="@+id/button23"
+        android:background="@drawable/ccevap"
+        android:layout_below="@+id/button22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Kayseri"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:id="@+id/button22"
+        android:background="@drawable/acevap"
+        android:layout_below="@+id/imageView14"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:onClick="a_buton" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/kullanici"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView12" />
+
+    <TextView
+        android:text="Emrah Efe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView12"
+        android:layout_toRightOf="@+id/imageView12"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView15"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Puan:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_toLeftOf="@+id/textView16"
+        android:layout_marginRight="5dp"
+        android:id="@+id/textView17"
+        android:textStyle="normal|bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jokersoru"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignLeft="@+id/imageView12"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/imageView13" />
+
+    <Button
+        android:text="900"
+        android:layout_width="195dp"
+        android:layout_height="34dp"
+        android:id="@+id/button11"
+        android:background="@drawable/puandokuz"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="800"
+        android:layout_width="180dp"
+        android:layout_height="33dp"
+        android:id="@+id/button12"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/puansekiz"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="700"
+        android:layout_width="165dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button13"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:background="@drawable/puanyedi" />
+
+    <Button
+        android:text="600"
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button14"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:background="@drawable/puanalti" />
+
+    <Button
+        android:text="500"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/button14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button15"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:background="@drawable/puanbes" />
+
+    <Button
+        android:text="400"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/button15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button16"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:background="@drawable/puandort" />
+
+    <Button
+        android:text="300"
+        android:layout_width="105dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/button16"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button17"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:background="@drawable/puanuc" />
+
+    <Button
+        android:text="200"
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/button17"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button18"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:background="@drawable/puaniki" />
+
+    <Button
+        android:text="100"
+        android:layout_width="75dp"
+        android:layout_height="33dp"
+        android:id="@+id/button19"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:background="@drawable/puanbir"
+        android:layout_below="@+id/button18"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sorukutu"
+        android:layout_below="@+id/button19"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView14" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sure"
+        android:layout_alignBottom="@+id/button18"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView15" />
+
+    <TextView
+        android:text="13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView18"
+        android:textSize="25sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Aşağıdakilerden hangisi mantısı ve pastırmasıyla ünlü olan şehrimizdir?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignRight="@id/imageView14"
+        android:layout_alignLeft="@id/imageView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:id="@+id/textView19"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Konya"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:id="@+id/button21"
+        android:background="@drawable/bcevap"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16"
+        android:textAllCaps="false"
+        android:onClick="b_buton" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:id="@+id/btelli"
+        android:layout_alignTop="@id/imageView13"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/jokerelli" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:id="@+id/btybes"
+        android:layout_below="@id/btelli"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/jokerybes" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:id="@+id/btiki"
+        android:layout_below="@id/btybes"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/jokeriki" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:id="@+id/btpas"
+        android:layout_below="@id/btiki"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/jokerpas" />
+
+    <TextView
+        android:text="75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btelli"
+        android:layout_toRightOf="@id/btelli"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textelli"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold|italic"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btybes"
+        android:layout_toRightOf="@id/btybes"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textybes"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold|italic"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btiki"
+        android:layout_toRightOf="@id/btiki"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textiki"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold|italic"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btpas"
+        android:layout_toRightOf="@id/btpas"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textpas"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold|italic"
+        android:textSize="25sp" />
+
+    <Button
+        android:text="1000"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:id="@+id/button10"
+        android:background="@drawable/puanbin"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:layout_above="@+id/btelli"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Sivas/Şarkışla"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:id="@+id/button20"
+        android:background="@drawable/dcevap"
+        android:textAllCaps="false"
+        android:layout_alignBaseline="@+id/button23"
+        android:layout_alignBottom="@+id/button23"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="5500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9bd10">
+
+    <TextView
+        android:text="Süreniz Doldu!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:textColor="#373130"
+        android:layout_alignBottom="@+id/imageView16"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/unlem"
+        android:id="@+id/imageView16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="OYUNU BIRAK"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/button24"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/button25"
+        android:background="@drawable/alert_cancel_button_background"
+        android:textStyle="normal|bold"
+        android:textColor="#ffff"
+        android:textSize="15sp" />
+
+    <Button
+        android:text="YENİDEN BAŞLA"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/button24"
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/alert_button_background"
+        android:textStyle="normal|bold"
+        android:textColor="#ffff"
+        android:textSize="15sp" />
+
+</RelativeLayout>

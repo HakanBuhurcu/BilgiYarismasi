@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/baslik"
+        android:id="@+id/imageView"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/kayitalani"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:background="@drawable/mtnalani"
+        android:textColor="@android:color/background_light"
+        android:hint="Tekrar Şifre"
+        android:textColorHint="@android:color/background_light"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:background="@drawable/mtnalani"
+        android:layout_marginTop="29dp"
+        android:textColor="@android:color/background_light"
+        android:hint="E-Mail"
+        android:textColorHint="@android:color/background_light"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:background="@drawable/mtnalani"
+        android:textColor="@android:color/background_light"
+        android:hint="Şifre"
+        android:textColorHint="@android:color/background_light"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:text="ÜYE OL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/button"
+        android:background="@drawable/uyeolbuton"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/button2"
+        android:background="@drawable/uyelikbuton"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:onClick="login_tikla" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="@drawable/mtnalani"
+        android:layout_marginTop="34dp"
+        android:textColor="@android:color/background_light"
+        android:hint="Kullanıcı Adı"
+        android:textColorHint="@android:color/background_light"
+        tools:textColorLink="@android:color/background_light"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+</RelativeLayout>

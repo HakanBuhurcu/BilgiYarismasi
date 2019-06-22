@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/baslik"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/loginalani"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="86dp"
+        android:id="@+id/editText6"
+        android:background="@drawable/mtnalani"
+        android:hint="Kullanıcı Adı"
+        tools:textColorHint="@android:color/background_light"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:background="@drawable/mtnalani"
+        android:hint="Şifre"
+        tools:textColorHint="@android:color/background_light"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6" />
+
+    <Button
+        android:text="GİRİŞ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:id="@+id/button3"
+        android:background="@drawable/uyeolbuton"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/button5"
+        android:background="@drawable/hesapolusturbuton"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/button4"
+        android:background="@drawable/sifreuntbuton"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
